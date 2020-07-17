@@ -1,49 +1,186 @@
+:root {
+    --white: #FFFFFF;
+    --red:  #DC3C45;
+    --red-light: #FFECEE;
+    --blue: #2679F5;
+    --blue-light: #EAF5FF;
+    --green: #51A847;
+    --green-light:  #E6FAE6;
+    --yellow: #F6C149;
+    --yellow-light : #FFF9E5;
+    --navy: #22262A;
+    --navy-light: #F6F7F8;
+  }
+  
+  
 button {
     border-radius: 2px;
     padding: 5px 25px;
 }
 
 .button-primary {
-    background-color: #0069D9;
+    background-color: var(--blue);
     color: white;
-    border: #0069D9;
+    border: var(--blue) solid 2px;
 }
 .button-success {
-    background-color: #51A847;
+    background-color: var(--green);
     color: white;
-    border: #0069D9;
+    border: var(--green) solid 2px;
 }
 .button-danger {
-    background-color: #DC3C45;
+    background-color: var(--red);
     color: white;
-    border: #0069D9;
+    border: var(--red) solid 2px;
 }
 .button-warning {
-    background-color: #F6C149;
+    background-color: var(--yellow);
     color: white;
-    border: #0069D9;
+    border:var(--yellow) 2px solid ;
+}
+.button-default {
+    background-color:var(--navy);
+    color: white;
+    border:  var(--navy) 2px solid
 }
 .button-large {
-    padding: 10px 50px;
+    padding: 10px 50px; 
+    border: solid 2px
 }
 .button-primary:hover {
     background-color: #023872;
     color: white;
-    border: #0069D9;
+    border: #023872 solid 2px;
 }
 
 .button-success:hover{
     background-color: #376332;
     color: white;
-    border: #0069D9;
+    border: #376332 solid 2px;
 }
 .button-danger:hover{
     background-color: #722327;
     color: white;
-    border: #0069D9;
+    border: #722327 solid 2px;
 }
 .button-warning:hover{
     background-color: #b18b34;
     color: white;
-    border: #0069D9;
+    border: #b18b34 solid 2px;
+}
+.button-default:hover{
+    background-color: #0f1113;
+    color: white;
+    border:  #0f1113 solid 2px;
+}
+.button-primary-outline{
+    background-color: white;
+    color: var(--blue);
+}
+.button-success-outline{
+    background-color: white;
+    color: var(--green);
+}
+.button-danger-outline{
+    background-color: white;
+    color: var(--red);
+}
+.button-warning-outline{
+    background-color: white;
+    color: var(--yellow);
+}
+.button-default-outline{
+    background-color: white;
+    color: var(--navy);
+}
+
+.button-primary-light{
+    background-color: var(--blue-light); 
+    border: none;
+    color: var(--blue)
+}
+
+.button-success-light{
+    background-color: var(--green-light); 
+    border: none;
+    color: var(--green)
+}
+.button-danger-light{
+    background-color: var(--red-light); 
+    border: none;
+    color: var(--red)
+}
+.button-warning-light{
+    background-color: var(--yellow-light); 
+    border: none;
+    color: var(--yellow)
+}
+.button-default-light{
+    background-color: var(--navy-light); 
+    border: none;
+    color: var(--navy)
+}
+
+.button-large-primary-outline{
+    background-color: white;
+    color: var(--blue);
+    padding: 10px 50px; 
+    border: solid 2px
+}
+.button-large-success-outline{
+    background-color: white;
+    color: var(--green);
+    padding: 10px 50px; 
+    border: solid 2px
+}.button-large-danger-outline{
+    background-color: white;
+    color: var(--red);
+    padding: 10px 50px; 
+    border: solid 2px
+}.button-large-warning-outline{
+    background-color: white;
+    color: var(--yellow);
+    padding: 10px 50px; 
+    border: solid 2px
+}.button-large-default-outline{
+    background-color: white;
+    color: var(--navy);
+    padding: 10px 50px; 
+    border: solid 2px
+}
+
+.button-large-primary-light{
+    background-color: var(--blue-light); 
+    border: none;
+    color: var(--blue);
+    padding: 10px 50px; 
+
+}
+.button-large-success-light{
+    background-color: var(--green-light); 
+    border: none;
+    color: var(--green);
+    padding: 10px 50px; 
+
+}
+.button-large-danger-light{
+    background-color: var(--red-light); 
+    border: none;
+    color: var(--red);
+    padding: 10px 50px; 
+
+}
+.button-large-warning-light{
+    background-color: var(--yellow-light); 
+    border: none;
+    color: var(--yellow);
+    padding: 10px 50px; 
+
+}
+.button-large-default-light{
+    background-color: var(--navy-light); 
+    border: none;
+    color: var(--navy);
+    padding: 10px 50px; 
+
 }
