@@ -20,12 +20,7 @@ const Button = (props) =>{
         classList += ` button-${props.type}-light`
     }
 
-    if (props.large && props.outline) {
-        classList += ` button-large-${props.type}-outline`
-    }
-    if (props.large && props.light) {
-        classList += ` button-large-${props.type}-light`
-    }
+   
    
    return <button className ={classList}>
         {props.label}

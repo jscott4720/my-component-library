@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
 import Button from './Button';
 
 
@@ -42,26 +41,4 @@ storiesOf('Button', module)
     .add('Success Large Light', () => <Button type = 'success' large light label = "Success Large Light"/>)
     .add('Danger Large Light', () => <Button type = 'danger' large light label = "Danger Large Light"/>)
     .add('Warning Large Light', () => <Button type = 'warning' large light label = "Warning Large Light"/>)
-    .add('Default Large Light', () => <Button type = 'default' large light label = "Default Large Light"/>)
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-    
-   
-    
-
-    
+    .add('Default Large Light', () => <Button type = 'default' large light label = "Default Large Light"/>)    

@@ -1,0 +1,31 @@
+.text{
+}
+
+.text-small{
+ font-size: 10px;
+}
+
+.text-large{
+font-size: 20px;
+padding: 5px;
+}
+
+.select{
+border: #F1F3F4 solid 2px;
+width: 200px;
+padding: 10px;
+}
+
+.select-small{
+width: 125px;
+padding: 7px;
+}
+
+.select-large{
+width: 220px;
+padding: 15px;
+}
+
+.select-dark{
+    background-color: #F1F3F4;
+}
