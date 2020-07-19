@@ -38,10 +38,19 @@ const Form = (props) => {
 
   if (props.select) {
     return (
-      <select className = {classList}>
-        <option>{props.placeholder}</option>
-      </select>
+      <form>
+      <div >
+        <input placeholder={props.placeholder} className={classList}></input>
+        <label>{props.label}</label>
+      </div>
+    </form>
     );
+  }//select if 
+
+  if (props.voucher) {
+    return (
+
+    )
   }
 };//Form function
 

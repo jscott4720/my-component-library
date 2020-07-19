@@ -9,7 +9,9 @@ storiesOf('Button', module)
     .add('Success', () => <Button type="success"  label="Success" />) 
     .add('Danger', () => <Button type='danger' label="Danger" />) 
     .add('Warning', () => <Button type='warning' label="Warning" />) 
-    .add('Default', () => <Button type='default' label="Default" />) 
+    .add('Default', () => <Button type='default' label="Default" />)
+    
+    // I had some very detailed notes here at one point but I deleted them and forgot to command Z them :/ ... hate to see it 
 
 
     .add('Primary Large', () => <Button type='primary' large label="Primary Large" />) 

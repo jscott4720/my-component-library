@@ -14,7 +14,7 @@ padding: 5px;
 border: #F1F3F4 solid 2px;
 width: 200px;
 padding: 10px;
-}
+} 
 
 .select-small{
 width: 125px;
@@ -28,4 +28,19 @@ padding: 15px;
 
 .select-dark{
     background-color: #F1F3F4;
+}
+
+button {
+    background-color: #F6F7F8;
+    color: var(--blue);
+    border: #F6F7F8;
+    padding: 5px 20px
+}
+.counter{
+    display: flex;
+    background-color: #F6F7F8;
+    width: 100px;
+}
+p{
+    margin: 4px 3px;
 }
