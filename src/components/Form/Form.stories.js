@@ -20,7 +20,9 @@ storiesOf('Form', module)
 
 .add('Counter', () => <Counter min={0} max={10} step = {1} value = {0} />)
 
-.add('Voucher', () => <Form voucher type = 'voucher' props/>)
+.add('Voucher', () => <Form voucher type = 'text' otherType = 'submit' value = 'Redeem'  size = "normal" placeholder = 'Voucher Code'/>)
+
+.add ('Voucher Large', () => <Form voucher type = 'text' otherType = 'submit' value = 'Redeem' size = 'large' placeholder = 'Voucher Code' large />)
 
 
 

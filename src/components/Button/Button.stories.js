@@ -14,7 +14,7 @@ storiesOf('Button', module)
     // I had some very detailed notes here at one point but I deleted them and forgot to command Z them :/ ... hate to see it 
 
 
-    .add('Primary Large', () => <Button type='primary' large label="Primary Large" />) 
+    .add('Primary Large', () => <Button type ='primary' large label="Primary Large" />) 
     .add('Success Large', () => <Button type = 'success' large label ='Success Large' />)
     .add('Danger Large', () => <Button type = 'danger' large label ='Danger Large' />)
     .add('Warning Large', () => <Button type = 'warning' large label ='Warning Large' />)

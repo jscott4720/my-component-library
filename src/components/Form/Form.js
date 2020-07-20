@@ -3,12 +3,18 @@ import "./Form.css";
 
 const Form = (props) => {
   let classList = "";
+  let otherClass = ""
 
-  let types = ["text", "select"];
+  let types = ["text", "select", 'submit'];
 
   if (types.includes(props.type)) {
     classList += `${props.type}`;
   }//includes if
+
+  if (props.size) {
+    otherClass += ` submit-${props.size}`
+  }
+ 
 
   if (props.small) {
     classList += ` ${props.type}-small`;
@@ -38,20 +44,23 @@ const Form = (props) => {
 
   if (props.select) {
     return (
-      <form>
-      <div >
-        <input placeholder={props.placeholder} className={classList}></input>
-        <label>{props.label}</label>
-      </div>
-    </form>
+      <select className = {classList}>
+        <option>{props.placeholder}</option>
+      </select>
     );
   }//select if 
 
   if (props.voucher) {
-    return (
+    return  <form>
+    <div>
+      <input className = {classList} type = {props.type} placeholder={props.placeholder}></input>
+      <input className = {otherClass} type = {props.otherType} value = {props.value}></input>
 
-    )
-  }
+    </div>
+  </form>
+
+   }// voucher if
+  
 };//Form function
 
 export default Form;

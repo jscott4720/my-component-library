@@ -10,6 +10,7 @@
     --yellow-light : #FFF9E5;
     --navy: #22262A;
     --navy-light: #F6F7F8;
+    --grey: #F1F3F4;
   }
   
   
@@ -97,7 +98,7 @@ button {
 .button-primary-light{
     background-color: var(--blue-light); 
     border: none;
-    color: var(--blue)
+    color: var(--white)
 }
 
 .button-success-light{
@@ -121,66 +122,3 @@ button {
     color: var(--navy)
 }
 
-.button-large-primary-outline{
-    background-color: white;
-    color: var(--blue);
-    padding: 10px 50px; 
-    border: solid 2px
-}
-.button-large-success-outline{
-    background-color: white;
-    color: var(--green);
-    padding: 10px 50px; 
-    border: solid 2px
-}.button-large-danger-outline{
-    background-color: white;
-    color: var(--red);
-    padding: 10px 50px; 
-    border: solid 2px
-}.button-large-warning-outline{
-    background-color: white;
-    color: var(--yellow);
-    padding: 10px 50px; 
-    border: solid 2px
-}.button-large-default-outline{
-    background-color: white;
-    color: var(--navy);
-    padding: 10px 50px; 
-    border: solid 2px
-}
-
-.button-large-primary-light{
-    background-color: var(--blue-light); 
-    border: none;
-    color: var(--blue);
-    padding: 10px 50px; 
-
-}
-.button-large-success-light{
-    background-color: var(--green-light); 
-    border: none;
-    color: var(--green);
-    padding: 10px 50px; 
-
-}
-.button-large-danger-light{
-    background-color: var(--red-light); 
-    border: none;
-    color: var(--red);
-    padding: 10px 50px; 
-
-}
-.button-large-warning-light{
-    background-color: var(--yellow-light); 
-    border: none;
-    color: var(--yellow);
-    padding: 10px 50px; 
-
-}
-.button-large-default-light{
-    background-color: var(--navy-light); 
-    border: none;
-    color: var(--navy);
-    padding: 10px 50px; 
-
-}

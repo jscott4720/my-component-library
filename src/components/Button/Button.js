@@ -7,6 +7,10 @@ const Button = (props) =>{
 
     let types = ['primary', 'danger', 'success', 'warning', 'default']
 
+ // if (types[0] is = props.{primary}){
+     // classList += ` button-primary`
+ //}
+ //
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
